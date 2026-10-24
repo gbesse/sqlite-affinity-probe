@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Révéler les résultats changés par les affinités de types SQLite', 'en': 'Expose results changed by SQLite type affinities', 'es': 'Revelar resultados alterados por afinidades de tipos SQLite'}

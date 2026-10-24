@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlite-affinity-probe"
+version = "0.1.0a1"
+description = "FR: Révéler les résultats changés par les affinités de types SQLite | EN: Expose results changed by SQLite type affinities | ES: Revelar resultados alterados por afinidades de tipos SQLite"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+sqlite-affinity-probe = "sqlite_affinity_probe.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sqlite_affinity_probe*"]
