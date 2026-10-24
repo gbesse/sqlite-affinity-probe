@@ -17,7 +17,7 @@ Crée une vraie base SQLite en mémoire pour chaque affinité, insère les même
 
 ### Limites
 
-Une colonne, prédicats bornés et affinités SQLite non STRICT ; pas une preuve déquivalence SQL générale ni une simulation MySQL/PostgreSQL.
+Une colonne, prédicats bornés et affinités SQLite non STRICT ; pas une preuve d’équivalence SQL générale ni une simulation MySQL/PostgreSQL.
 
 ### Validation
 
